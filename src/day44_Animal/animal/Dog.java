@@ -1,6 +1,6 @@
 package day44_Animal.animal;
 
-public final class Dog extends Animal{
+public final class Dog extends Animal implements Playable{
 
     public Dog(String name, String breed, String color, char gender, int age, String size) {
         super(name, breed, color, gender, age, size);
@@ -14,5 +14,10 @@ public final class Dog extends Animal{
     @Override
     public void eat() {
         System.out.println(getName()+" is eats pizza");
+    }
+
+    @Override
+    public void play() {
+
     }
 }
