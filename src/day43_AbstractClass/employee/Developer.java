@@ -2,8 +2,8 @@ package day43_AbstractClass.employee;
 
 public final class Developer extends Employee {
 
-    public Developer(String name, int age, char gender, String jobTitle, int id, double salary) {
-        super(name, age, gender, jobTitle, id, salary);
+    public Developer(String name, int age, char gender,  int id,String jobTitle, double salary) {
+        super(name, age, gender, id, jobTitle, salary);
     }
 
     @Override

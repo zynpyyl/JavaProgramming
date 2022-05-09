@@ -8,9 +8,9 @@ public class EmployeeObjects {
 
         //Employee employee=new Employee("Beyza",20,'F',"SDET",1232,10000);
 
-        Tester tester=new Tester("Elif",40, 'F',"QA",1566,90000);
+        Tester tester=new Tester("Elif",40, 'F',1566,"QA",90000);
 
-        Developer developer=new Developer("Ramazan",39,'M',"Developer",881,120000);
+        Developer developer=new Developer("Ramazan",39,'M',881,"Developer",120000);
 
         System.out.println(tester);
         System.out.println(developer);

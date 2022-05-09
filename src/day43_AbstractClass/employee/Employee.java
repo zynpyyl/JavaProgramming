@@ -6,12 +6,12 @@ public abstract class Employee extends Person{
     private final int id;
     private double salary;
 
-    public Employee(String name, int age, char gender, String jobTitle, int id, double salary) {
+    public Employee(String name, int age, char gender,  int id,String jobTitle, double salary) {
         super(name, age, gender);
-        setJobTitle(jobTitle);
         if(id<0)
             throw new RuntimeException("Invalid id: "+id);
         this.id = id;
+        setJobTitle(jobTitle);
         setSalary(salary);
     }
 
